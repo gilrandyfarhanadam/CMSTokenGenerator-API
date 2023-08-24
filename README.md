@@ -1,1 +1,1 @@
-# CMSTokenGenerator-API
+# CMS Token Generator API
