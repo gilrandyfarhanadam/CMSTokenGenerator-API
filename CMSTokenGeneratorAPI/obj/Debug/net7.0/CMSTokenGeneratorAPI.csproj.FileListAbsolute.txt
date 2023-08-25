@@ -54,3 +54,5 @@
 /Users/gilrandyfarhan/Documents/Projects/CMS-Soulitonline/APIs/TokenGenerator/CMSTokenGenerator-API/CMSTokenGeneratorAPI/obj/Debug/net7.0/CMSTokenGeneratorAPI.pdb
 /Users/gilrandyfarhan/Documents/Projects/CMS-Soulitonline/APIs/TokenGenerator/CMSTokenGenerator-API/CMSTokenGeneratorAPI/obj/Debug/net7.0/CMSTokenGeneratorAPI.genruntimeconfig.cache
 /Users/gilrandyfarhan/Documents/Projects/CMS-Soulitonline/APIs/TokenGenerator/CMSTokenGenerator-API/CMSTokenGeneratorAPI/obj/Debug/net7.0/ref/CMSTokenGeneratorAPI.dll
+/Users/gilrandyfarhan/Documents/Projects/CMS-Soulitonline/APIs/TokenGenerator/CMSTokenGenerator-API/CMSTokenGeneratorAPI/bin/Debug/net7.0/Asp.Versioning.Abstractions.dll
+/Users/gilrandyfarhan/Documents/Projects/CMS-Soulitonline/APIs/TokenGenerator/CMSTokenGenerator-API/CMSTokenGeneratorAPI/bin/Debug/net7.0/Asp.Versioning.Http.dll
