@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/CMSTokenGeneratorAPI.props" />
+</Project>

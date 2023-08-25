@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "8jmgxnQjBoceO92OcGVchFltatHytT6BGjnFARcW+eU=",
+  "Source": "CMSTokenGeneratorAPI",
+  "BasePath": "_content/CMSTokenGeneratorAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
