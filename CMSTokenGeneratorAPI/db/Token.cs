@@ -90,7 +90,7 @@ namespace DatabaseConnection
 
             // compare if it valid date
             if (Tkn != null) {
-                return Tkn.Start < DateTime.Now && Tkn.End > DateTime.Now;
+                return DateTime.Now >= Tkn.Start && DateTime.Now <= Tkn.End;
             }
 
             return false;
