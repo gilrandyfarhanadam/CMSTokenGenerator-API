@@ -14,7 +14,7 @@ services:
     restart : unless-stopped
     networks:
       - nginx-network
-      - db-network
+      - personalweb_db-network
   nginx-tokengenerator:
     image: nginx:latest
     container_name: tokengenerator-nginx
@@ -27,7 +27,9 @@ services:
       - tokengenerator-api
     networks:
       - nginx-network
-      - db-network
+      - personalweb_db-network
 networks:
   nginx-network:
     driver: bridge
+  personalweb_db-network:
+    external: true
