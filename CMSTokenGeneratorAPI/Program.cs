@@ -37,4 +37,4 @@ var SetVersion = app.NewApiVersionSet().HasApiVersion(new ApiVersion(1,0)).Repor
 app.MapPost("/tokens/generate", tc.GenerateToken).WithOpenApi().WithApiVersionSet(SetVersion);
 app.MapPost("/tokens/check", tc.CheckToken).WithOpenApi().WithApiVersionSet(SetVersion);
 
-app.Run();
+app.Run("http://localhost:5000");
