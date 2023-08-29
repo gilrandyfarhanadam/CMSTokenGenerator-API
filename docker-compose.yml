@@ -5,6 +5,8 @@ services:
       context: './CMSTokenGeneratorAPI'
       dockerfile: Dockerfile
     container_name: tokengenerator-api
+    volumes:
+      - ./connection.json:/app/connection/connection.json
     expose:
       - 5000
     restart : unless-stopped
