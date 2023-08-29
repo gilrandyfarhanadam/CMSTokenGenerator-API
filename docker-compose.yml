@@ -14,6 +14,7 @@ services:
     restart : unless-stopped
     networks:
       - nginx-network
+      - db-network
   nginx-tokengenerator:
     image: nginx:latest
     container_name: tokengenerator-nginx
@@ -26,7 +27,7 @@ services:
       - tokengenerator-api
     networks:
       - nginx-network
+      - db-network
 networks:
   nginx-network:
     driver: bridge
-
