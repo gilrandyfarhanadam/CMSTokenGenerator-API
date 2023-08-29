@@ -25,7 +25,7 @@ namespace DatabaseConnection
         }
 
         public void ReadJSONFIle(){
-            string text = File.ReadAllText("./connection.json");
+            string text = File.ReadAllText("./connection/connection.json");
 
             using JsonDocument document = JsonDocument.Parse(text);
                 JsonElement root = document.RootElement;
