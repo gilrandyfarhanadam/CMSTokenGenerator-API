@@ -2,7 +2,7 @@ version: '3.9'
 services:
   tokengenerator-api:
     build: 
-      context: './CMSTokenGeneratopAPI'
+      context: './CMSTokenGeneratorAPI'
       dockerfile: Dockerfile
     expose:
       - 5000
